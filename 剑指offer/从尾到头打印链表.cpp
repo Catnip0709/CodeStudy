@@ -2,7 +2,8 @@
 Author: Catnip
 Date: 2020/01/17
 From: 剑指offer
-Link: https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking*/
+Link: https://www.nowcoder.com/practice/d0267f7f55b3412ba93bd35cfa8e8035?tpId=13&tqId=11156&rp=1&ru=/ta/coding-interviews&qru=/ta/coding-interviews/question-ranking
+*/
 
 /* Q
 输入一个链表，按链表从尾到头的顺序返回一个ArrayList。
