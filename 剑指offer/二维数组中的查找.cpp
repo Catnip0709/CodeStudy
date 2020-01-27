@@ -38,15 +38,14 @@ bool Find(int target, vector<vector<int> > array) {
 	int curCol = 0;
 	while (curRow > -1 && curCol < cols) {
 		int myTarget = array[curRow][curCol];
-		if (target == myTarget)
+		if (target == myTarget) {
 			return true;
-		if (target < myTarget)
-		{
+        }
+		if (target < myTarget) {
 			curRow--;
 			continue;
 		}
-		if (target > myTarget)
-		{
+		if (target > myTarget) {
 			curCol++;
 			continue;
 		}
