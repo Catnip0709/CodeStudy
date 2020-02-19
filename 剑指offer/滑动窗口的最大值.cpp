@@ -25,7 +25,7 @@ using namespace std;
 
 vector<int> maxInWindows(const vector<int>& num, unsigned int size) {
     vector<int> result;
-    deque<int> s; // 双端队列
+    deque<int> s; // 双端队列，存的是下标，不是值
     for (int i = 0; i < num.size(); ++i) {
         //从后面依次弹出队列中比当前num值小的元素，同时也能保证队列首元素为当前窗口最大值下标
         while (s.size() && num[s.back()] <= num[i]) {
