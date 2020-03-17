@@ -16,7 +16,6 @@ Link: https://www.nowcoder.com/practice/6e5207314b5241fb83f2329e89fdecc8?tpId=13
 
 #include<iostream>
 #include<vector>
-#include<math.h>
 using namespace std;
 
 //数字处理，将36变成3+6=9
