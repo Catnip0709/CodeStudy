@@ -23,6 +23,7 @@ Link: https://leetcode-cn.com/problems/game-of-life/
 /* A
 节约空间：想办法复用原有数组，避免复制。
 每一格中，0 = 原本死亡， 1 = 原本存活， 2 = 原本死亡后来复活， 3 = 原本存活后来死亡
+时间复杂度O(mn)，空间复杂度O(1)
 */
 
 #include <iostream>
